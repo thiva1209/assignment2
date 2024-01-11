@@ -9,7 +9,7 @@ function HeroSection() {
         const youtubeVideoUrl = `https://www.youtube.com/watch?v=${youtubeVideoId}`;
         
         window.open(youtubeVideoUrl, '_blank');
-    };
+    }; 
     
 
   return (
