@@ -3,24 +3,13 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
-/*function HeroSection() {
+function HeroSection() {
     const redirectToYouTubeVideo = () => {
         const youtubeVideoId = 'iLs8XlobvDY';
         const youtubeVideoUrl = `https://www.youtube.com/watch?v=${youtubeVideoId}`;
         
         window.open(youtubeVideoUrl, '_blank');
-    }; */
-
-    function HeroSection() {
-      const redirectToYouTubeVideo = () => {
-          const youtubeVideoId = 'Qx-A9AC0OdM';
-          const youtubeVideoUrl = `https://www.youtube.com/watch?v=${youtubeVideoId}`;
-          
-          window.open(youtubeVideoUrl, '_blank');
-      ;
-      
-  }
-  
+    }; 
     
 
   return (
